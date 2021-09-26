@@ -2,7 +2,10 @@
   "name": "vite-template-solid",
   "version": "0.0.0",
   "description": "",
+  "homepage": "https://neiderbtc.github.io/ntf-solidjs-images",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
@@ -15,6 +18,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.1.1",
+    "gh-pages": "^3.2.3",
     "image-to-base64": "^2.2.0",
     "nft.storage": "^3.2.2",
     "solid-js": "^1.1.1"
