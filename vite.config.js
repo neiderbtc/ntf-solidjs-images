@@ -3,6 +3,7 @@ import solidPlugin from "vite-plugin-solid";
 
 export default defineConfig({
   plugins: [solidPlugin()],
+  base: '/ntf-solidjs-images/',
   build: {
     target: "esnext",
     polyfillDynamicImport: false,
